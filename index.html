@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GourmetIvoire</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="./page.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">GourmetIvoire</div>
+      <ul>
+        <li><a href="#acceuil">Acceuil</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#info">Infos</a></li>
+      </ul>
+    </nav>
+  </header>      
+  <section class="hero" id="acceuil">
+    <div>
+      <h1>Saveur Authentiques d'Abidjan</h1>
+      <p >Attiéké, Kedjenou, Alloco... Le meilleur de la cuisine ivoirienne</p>
+      <a href="#menu" class="btn">Voir le menu</a>
+    </div>
+  </section>
+  <section id="menu">
+    <h2>Nos Spécialités</h2>
+    <div class="spécialité-grid">
+      <div class="card">
+          <img src="images/garba.jpeg" alt="">
+          <div class="card-info">
+              <h3>Garba Complet</h3>
+              <p>Le plat national ivoirien</p>
+              <span class="price">500 FCFA</span>
+          </div>
+      </div>
+      <div class="card">
+          <img src="images/poisson braisé.jpeg" alt="">
+          <div class="card-info">
+              <h3>Attiéké Poisson Braisé</h3>
+              <p>Attiéké fin accompagné de poisson braisé</p>
+              <span class="price">3.500 FCFA</span>
+          </div>
+      </div>
+      <div class="card">
+          <img src="images/kedjenou.jpeg" alt="">
+          <div class="card-info">
+              <h3>Kedjenou de Poulet</h3>
+              <p>Poulet mijoté aux légumes frais accompagné avec le riz</p>
+              <span class="price">3.500 FCFA</span>
+          </div>
+      </div>
+    </div>
+  </section>
+  <section class="phone" id="contact">
+    <div class="plan">
+      <h1>Besoin d'information ?</h1>
+      <p>Contactez-nous ! Notre équipe vous répond </br>rapidement.</p>
+    </div>
+    <div class="container">
+      <form action="">
+        <label for="nom">Nom </label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="email">Email </label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telephone">Téléphone </label>
+        <input type="tel" id="telephone" name="telephone" required>
+
+        <label for="message">Message </label>
+        <input type="text" placeholder="Rédigez votre message" id="message" name="message" required>
+
+        <button type="submit">Envoyer</button>
+      </form>  
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2026 Le GourmetIvoire. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
