@@ -388,7 +388,8 @@ footer {
   margin-top: 15px;
   margin-right: 20px;
 }
-@media (max-width: 768px) {
+
+@media (max-width: 900px) {
   /*---HERO---*/
   .hero {
     padding: 0 15px; /* pour que ça ne touche pas les bords */
@@ -396,7 +397,7 @@ footer {
   }
 
   .hero h1 {
-    font-size: 2.2rem !important; /* plus petit, tout rentre */
+    font-size: 2.9rem !important; /* plus petit, tout rentre */
     line-height: 1.2;
     word-wrap: break-word;
   }
@@ -405,6 +406,10 @@ footer {
     font-size: 1.3rem !important;
     line-height: 1.5;
     max-width: 100%;
+  }
+
+  .btn{
+    display: none;
   }
   /*---BURGER---*/
   .burger {
@@ -446,7 +451,7 @@ footer {
     margin-bottom: 20px;
   }
   .card {
-    width: 90%; /* au lieu de 300px fixe */
+    width: 100%; /* au lieu de 300px fixe */
     max-width: 340px;
     height: auto; /* au lieu de 400px fixe */
     margin-left: 0 !important; /* ON TUE LE 90px QUI FAIT DÉBORDER */
@@ -473,6 +478,10 @@ footer {
   .about-text h2 {
     font-size: 2.2rem;
   }
+  .about-container a{
+    display: none;
+  }
+
   /*---CONTACT---*/
   .phone {
     flex-direction: column;
