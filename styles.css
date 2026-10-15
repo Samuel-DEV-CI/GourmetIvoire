@@ -415,13 +415,21 @@ footer {
   .burger {
     display: block;
   }
+
+  nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
   nav ul {
     display: none;
     position: absolute;
     top: 70px;
     right: 0;
     background: #111;
-    width: 220px;
+    width: 175px;
     flex-direction: column;
   }
   nav ul.active {
@@ -436,6 +444,10 @@ footer {
   }
   nav ul li::after {
     display: none;
+  }
+
+  nav ul li a{
+    font-size: 25px;
   }
   /*---MENU---*/
   .menu {
